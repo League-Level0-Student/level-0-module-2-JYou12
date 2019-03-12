@@ -7,8 +7,8 @@ import java.util.Random;
 
 public class IntroToRandom {
 	public static void main(String[] args) {
-		
-		int r = 0;
+		Random random = new Random();
+		int r = random.nextInt((75 - 25))+25;
 		
 		//3. Now make r random. 
 		//   Create an object of the Random class
@@ -22,7 +22,7 @@ public class IntroToRandom {
 		//6. Challenge: Limit the random number between -222 and 88
 
 		//1. Print out the value of r
-		
+		System.out.println(r);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
